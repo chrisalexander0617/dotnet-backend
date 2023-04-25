@@ -4,6 +4,7 @@ The purpose of this application is to demonstrate how to perform basic CRUD oper
 
 ## Instructions
 ### 1. Create PostgreSQL Database (RailWay.app recommended)
+```https://railway.app/```
 ### 2. Add PostgreSQL database provider from NuGet
 ```dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL```
 ### 3. Create PostgreSQL Database from code with EF Core Migrations
