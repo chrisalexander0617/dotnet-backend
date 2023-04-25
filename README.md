@@ -11,7 +11,7 @@ The purpose of this application is to demonstrate how to perform basic CRUD oper
     "WebApiDatabase": "Host={host}; Database={database; port={port}; Username={user}; Password={password}"
 },
 ```
-
+![postgres](https://user-images.githubusercontent.com/44784345/234330075-ffbc4c59-7693-4527-aaec-88864cedc07c.png)
 
 ### 2. Add PostgreSQL database provider from NuGet
 ```dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL```
