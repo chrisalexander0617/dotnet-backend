@@ -8,4 +8,5 @@ The purpose of this application is to demonstrate how to perform basic CRUD oper
 ### 2. Add PostgreSQL database provider from NuGet
 ```dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL```
 ### 3. Create PostgreSQL Database from code with EF Core Migrations
+```dotnet tool install -g dotnet-ef```
 ```dotnet add package Microsoft.EntityFrameworkCore.Design```
