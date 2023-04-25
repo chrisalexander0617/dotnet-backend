@@ -10,4 +10,5 @@ The purpose of this application is to demonstrate how to perform basic CRUD oper
 ### 3. Create PostgreSQL Database from code with EF Core Migrations
 ```dotnet tool install -g dotnet-ef```
 ```dotnet add package Microsoft.EntityFrameworkCore.Design```
+```dotnet ef migrations add InitialCreate```
 ```dotnet ef database update```
