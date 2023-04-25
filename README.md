@@ -5,10 +5,18 @@ The purpose of this application is to demonstrate how to perform basic CRUD oper
 ## Instructions
 ### 1. Create PostgreSQL Database (RailWay.app recommended)
 ```https://railway.app/```
+
 ### 2. Add PostgreSQL database provider from NuGet
 ```dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL```
+
 ### 3. Create PostgreSQL Database from code with EF Core Migrations
 ```dotnet tool install -g dotnet-ef```
+
+#### 4. Add EF Core Design package from NuGet
 ```dotnet add package Microsoft.EntityFrameworkCore.Design```
-```dotnet ef migrations add InitialCreate```
+
+#### 4. Generate EF Core migrations
+```dotnet ef migrations add <Name of migration>```
+
+#### 5. Execute EF Core migrations
 ```dotnet ef database update```
