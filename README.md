@@ -6,14 +6,15 @@ The purpose of this application is to demonstrate how to perform basic CRUD oper
 ### 1. Create PostgreSQL Database (RailWay.app recommended)
 ```https://railway.app/```
 
+
+![postgres](https://user-images.githubusercontent.com/44784345/234330075-ffbc4c59-7693-4527-aaec-88864cedc07c.png)
+
+Replace the variables in `appsettings.json` with the credentials from your PostgreSQL instance
 ```
   "ConnectionStrings": {
     "WebApiDatabase": "Host={host}; Database={database; port={port}; Username={user}; Password={password}"
 },
 ```
-![postgres](https://user-images.githubusercontent.com/44784345/234330075-ffbc4c59-7693-4527-aaec-88864cedc07c.png)
-
-Replace the variables in `appsettings.json` with the credentials from your PostgreSQL instance
 
 ### 2. Add PostgreSQL database provider from NuGet
 ```dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL```
