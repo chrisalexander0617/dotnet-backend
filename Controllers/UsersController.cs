@@ -1,5 +1,6 @@
 namespace WebApi.Controllers;
 
+// AutoMapper is used to covert objects of different shapes
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Models.Users;
