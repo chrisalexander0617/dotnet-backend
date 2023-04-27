@@ -11,7 +11,6 @@ public class DataContext : DbContext
     {
         Configuration = configuration;
     }
-
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
       // in memory database used for simplicity, change to a real db for production applications

@@ -13,4 +13,7 @@ public class CreateUser
 
     [Required]
     public string LastName { get; set; }
+
+    [Required]
+    public string GoogleUID { get; set; }
 }

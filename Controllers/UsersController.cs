@@ -35,6 +35,13 @@ public class UsersController : ControllerBase
         return Ok(user);
     }
 
+    [HttpGet("google/{uid}")]
+    public IActionResult GetByGoogleUID(string uid)
+    {
+        var user = _userService.GetByGoogleUID(uid);
+        return Ok(user);
+    }
+
     [HttpPost]
     public IActionResult Create(CreateUser model)
     {

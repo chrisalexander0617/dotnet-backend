@@ -1,6 +1,0 @@
-C:\Users\chris\Documents\learning\RailwayAPI\obj\Debug\net6.0\RailwayAPI.csproj.AssemblyReference.cache
-C:\Users\chris\Documents\learning\RailwayAPI\obj\Debug\net6.0\RailwayAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\chris\Documents\learning\RailwayAPI\obj\Debug\net6.0\RailwayAPI.AssemblyInfoInputs.cache
-C:\Users\chris\Documents\learning\RailwayAPI\obj\Debug\net6.0\RailwayAPI.AssemblyInfo.cs
-C:\Users\chris\Documents\learning\RailwayAPI\obj\Debug\net6.0\RailwayAPI.csproj.CoreCompileInputs.cache
-C:\Users\chris\Documents\learning\RailwayAPI\obj\Debug\net6.0\RailwayAPI.MvcApplicationPartsAssemblyInfo.cache
